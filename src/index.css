@@ -1,26 +1,27 @@
 * {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
-body{
+body {
   padding: 60px;
 }
 
+
 input {
+  color: grey;
+  font-size: 1.2rem;
   width: 100%;
-  font: 1.2rem;
-  color: gray;
 }
 
 .card-grid {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
 }
+
 .card {
   align-content: center;
-  border: 1px solid gray;
+  border: 1px solid grey;
   border-radius: 6px;
   margin-bottom: 10px;
   margin-right: 10px;
@@ -35,3 +36,4 @@ input {
 .card img {
   max-height: 170px;
 }
+
